@@ -10,7 +10,7 @@ class Animal {
 		this._species = species;
 	}
 	makeSound(){
-		console.log("animal sound");
+		console.log(`The ${this._species} makes a sound`);
 	}
 }
 
